@@ -1,0 +1,45 @@
+<div class="main">
+<div class="row">
+    <div class="col-7">
+        <div class="image">
+        <ngb-carousel *ngIf="images">
+            <ng-template ngbSlide>
+              <div class="wrapper">
+                <img [src]="images[0]" style="width: 100%; height:100vh;">
+              </div>
+              
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="wrapper">
+                <img [src]="images[1]"  style="width: 100%; height:100vh;">
+              </div>
+              
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="wrapper">
+                <img [src]="images[2]" style="width: 100%; height:100vh;">
+              </div>
+             
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="wrapper">
+                  <img [src]="images[3]"   style="width: 100%; height:100vh;">
+                </div>
+               
+              </ng-template>
+              <ng-template ngbSlide>
+                <div class="wrapper">
+                  <img [src]="images[4]"   style="width: 100%; height:100vh;">
+                </div>
+               
+              </ng-template>
+          </ngb-carousel>
+    </div>
+</div>
+    <div class="col-5">
+     <div>
+       <app-fbg></app-fbg> 
+     </div>
+    </div>
+</div>
+</div>

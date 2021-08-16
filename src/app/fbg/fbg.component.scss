@@ -1,0 +1,26 @@
+.horizontal-line-text{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    line-height: 0.1rem;
+    margin: 25px 0 30px 0;
+
+span{
+    background: blanchedalmond;
+    padding: 0 10px;
+}
+}
+.google-sign-in{
+    background-color: blueviolet;
+    border: 1px solid black;
+    padding: 10px 30px;
+    text-align: center;
+    font-weight: bold;
+    height: 100%;
+}
+img{
+    float: left;
+    span{
+        vertical-align: middle;
+    }
+}
